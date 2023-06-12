@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.container{
+    background-color:  hsl(235, 18%, 26%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row-1{
+    background-color: white;
+  padding: 2vh;
+    border-radius: 30px;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.stay{
+    
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 25px;
+}
+.p{
+    width: 60vh;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.img-container{
+    width: 70vh;
+}
+.list1{
+    margin-bottom: 15px;
+    display: flex;
+  
+    width: 60vh;
+    align-items: center;
+    text-align: left;
+    
+    
+}
+.list1 h4{
+    margin-left: 15px;
+}
+.email-div{
+    margin-top: 50px;
+    width: 47vh;
+    
+}
+
+.error{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.valid{
+    animation-name: valid;
+    animation-duration: 1s;
+    color: red;
+    display: none;
+}
+@keyframes valid {
+    0%{
+        transform: translateX(-20px);
+        opacity: 0;
+    }
+    50%{
+        transform: translateX(20px);
+    }
+}
+
+.sample{
+    border: 1px solid red;
+    background-color:hsla(4, 100%, 67%, 0.277);
+    
+    color: hsl(4, 100%, 67%);
+    animation-name: sample;
+    animation-duration: 1s;
+}
+@keyframes sample {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        
+    }
+}
+.email-div input{
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 47vh;
+    height: 5vh;
+    margin-bottom: 20px;
+}
+::placeholder{
+    padding: 15px;
+
+}
+.email-id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.anchor{
+   
+    background-color:  hsl(235, 18%, 26%);
+    height: 5vh;
+    border-radius: 5px;
+    width: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+    
+}
+.anchor a{
+    text-decoration: none;
+    color: white;
+    font-weight:900;
+}
+.row2{
+
+}
+.right-img-container{
+    height: 100%;
+    background-color: red;
+    border-radius: 15px;
+}
+.right-img{
+    height: 100%;
+    
+}
